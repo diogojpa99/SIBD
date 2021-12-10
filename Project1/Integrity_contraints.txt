@@ -1,0 +1,14 @@
+
+Project_1 - Integrity Contraints:
+
+IC_1: Each Sailor can only Reserve a Boat in the due Schedule dates if, and only if, the Boat is available for those days.
+
+IC_2: Each Trip has to have exactly two Locations: Start and End.
+
+IC_3: The Country Flag must be unique.
+
+IC_4: The ISO code of each Country must be unique.
+
+IC_5: When Traveling to a Country, the Flag of the Country of Registration can not be NULL (for each Boat).
+
+IC_6: When Traveling to a Country, the Flag of the Location jurisdiction Country can not be NULL (for each Boat).
