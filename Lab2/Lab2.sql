@@ -105,7 +105,8 @@ WHERE c.customer_city = branch.branch_city;
 
 SELECT DISTINCT c.customer_name , b.branch_city
 FROM customer c JOIN branch b
-        ON c.customer_city = b.branch_city;
+        ON c.customer_city = b.branch_city
+ORDER BY c.customer_name;
 
 
 -- (m) --
@@ -113,6 +114,13 @@ FROM customer c JOIN branch b
 SELECT DISTINCT  d.customer_name
 FROM depositor d JOIN borrower b
         ON d.customer_name = b.customer_name;
+
+-- or --
+
+(SELECT customer_name FROM depositor)
+INTERSECT
+(SELECT  customer_name FROM borrower);
+
 
 -- (n) --
 
