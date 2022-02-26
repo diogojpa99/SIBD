@@ -1,0 +1,37 @@
+SIBD - Projecto part 3
+
+Queries:
+
+1- Um pouco com dúcivdas, mas percebo o vosso ponto de vista 
+
+Dúvida: "Who is the owner with the most boats per country?"
+		Não deveria ser o owner que tem mais barcos num país ? (só uma solução)
+		
+		
+2- Validado
+
+3- Validado
+
+4- Validado (Em vez de ' = ANY' poderia-se usar 'IN', mas é indiferente)
+
+5- Validado
+
+
+/************************************************************************************/
+
+6.Data Analytics Queries:
+
+
+Questão:
+
+Sei que no Ex.4 só pedem um 'parâmetro' para a data: 'trip_start_date' 
+Mas depois querem que agrupar por ano, por mês... Não seria melhor ter:
+'trip_start_year' and 'trip_start_month'
+
+É que da forma como está temos que selecionar o ano do trip_start_date, que não é grave
+mas é um pouco chato 
+
+
+
+
+
